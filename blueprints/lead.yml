@@ -1,0 +1,46 @@
+name: Lead
+icon: headline
+fields:
+  text:
+    label:
+      en: Text
+      fr: Texte
+    type: writer
+    size: medium
+
+  size:
+    type: select
+    default: lead
+    label:
+      en: Text size
+      fr: Taille du texte
+    help:
+      en: >
+        Choose a text size
+      fr: >
+        Choissisez une taille de texte
+    options:
+      canon:
+        fr: Canon (Titre)
+        en: Canon (Title)
+      headline:
+        fr: Headline (Très grand)
+        en: Headline (Very large)
+      lead:
+        fr: Lead (Grand)
+        en: Lead (Large)
+      cicero:
+        fr: Cicero (Normal)
+        en: Cicero (Normal)
+      small-print:
+        fr: Small Print (Petit)
+        en: Small Print (Small)
+      pearl:
+        fr: Pearl (Très petit)
+        en: Pearl (Very small)
+
+  id:
+    type: text
+
+  class:
+    type: text

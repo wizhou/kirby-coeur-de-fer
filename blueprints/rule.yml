@@ -1,0 +1,45 @@
+icon: dots
+name:
+  fr: Espacement
+  en: Spacing
+fields:
+  selectType:
+    label:
+      en: Spacing type
+      fr: Type d'espacement
+    type: radio
+    default: rule
+    help:
+      en: >
+        Choose if spacing is a line or a blank space.
+      fr: >
+        Choisir si l'espacement est une ligne de séparation ou un espace blanc.
+    options:
+      rule:
+        fr: Ligne de séparation
+        en: Line
+      interspace:
+        fr: Espace blanc
+        en: Blank Space
+
+  info-rule:
+    type: info
+    label: false
+    text:
+      fr: >
+        Une ligne qui sépare deux éléments. Similaire à un `<hr>`. Utilisez cet espacement pour différencier deux parties distinctes de la page.
+      en: >
+        A line separating two element. Similar to a `<hr>`, use this spaceing to differenciate two distinct page sections.
+    when:
+      selectType: rule
+
+  info_interspace:
+    type: info
+    label: false
+    text:
+      fr: >
+        Un espace blanc sépare deux éléments. Utilisez cet espacement pour aérer la page et laisser respirer la composition.
+      en: >
+        A blank space separating two element. Use this element to give space and make the composition breathe.
+    when:
+      selectType: interspace

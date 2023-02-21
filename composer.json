@@ -1,0 +1,16 @@
+{
+	"name": "wizhou/kirby-coeur-de-fer",
+	"description": "A collection of blocks which work with coeur-de-fer.",
+	"license": "MIT",
+	"type": "kirby-plugin",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Wizhou / Romain Goetz",
+			"email": "wizard@romaingoetz.fr"
+		}
+	],
+	"require": {
+		"getkirby/composer-installer": "^1.1"
+	}
+}
