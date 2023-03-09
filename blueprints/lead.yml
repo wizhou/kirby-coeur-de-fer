@@ -41,6 +41,8 @@ fields:
 
   id:
     type: text
+    width: 1/2
 
   class:
     type: text
+    width: 1/2
