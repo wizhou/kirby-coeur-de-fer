@@ -5,18 +5,18 @@ type: toggles
 default: unset
 options:
   - value: capitalize
-    label:
+    text:
       fr: Capitaliser
       en: Capitalize
   - value: uppercase
-    label:
+    text:
       fr: Majuscules
       en: Uppercase
   - value: lowercase
-    label:
+    text:
       fr: Bas de casse
       en: Lowercase
   - value: unset
-    label:
+    text:
       fr: Non défini
       en: Unset
