@@ -1,0 +1,22 @@
+label:
+  fr: Transformation du texte
+  en: Text Transform
+type: toggles
+default: unset
+options:
+  - value: capitalize
+    label:
+      fr: Capitaliser
+      en: Capitalize
+  - value: uppercase
+    label:
+      fr: Majuscules
+      en: Uppercase
+  - value: lowercase
+    label:
+      fr: Bas de casse
+      en: Lowercase
+  - value: unset
+    label:
+      fr: Non défini
+      en: Unset
