@@ -1,27 +1,26 @@
-  text_align:
-    type: toggles
-    label:
-      fr: Alignement
-      en: Align
-    default: left
-    options:
-      - value: left
-        text:
-          fr: Gauche
-          en: Left
-        icon: text-left
-      - value: center
-        text:
-          fr: Centrer
-          en: Center
-        icon: text-center
-      - value: right
-        text:
-          fr: Droite
-          en: Right
-        icon: text-right
-      - value: justify
-        text:
-          fr: Justifié
-          en: Justify
-        icon: text-justify
+type: toggles
+label:
+  fr: Alignement
+  en: Align
+default: left
+options:
+  - value: left
+    text:
+      fr: Gauche
+      en: Left
+    icon: text-left
+  - value: center
+    text:
+      fr: Centrer
+      en: Center
+    icon: text-center
+  - value: right
+    text:
+      fr: Droite
+      en: Right
+    icon: text-right
+  - value: justify
+    text:
+      fr: Justifié
+      en: Justify
+    icon: text-justify
