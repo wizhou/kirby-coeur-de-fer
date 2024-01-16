@@ -48,6 +48,10 @@ composer require wizhou/kirby-coeur-de-fer
 
 MIT
 
+## Road Map
+
+- Show centering and text transformation in the wysiwyg
+
 ## Credits
 
 - [Wizhou / Romain Goetz](https://github.com/wizhou)
