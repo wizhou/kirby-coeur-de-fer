@@ -1,6 +1,13 @@
+<?php
+$size = $block->size()->or('lead');
+$class = $block->class();
+$id = $block->id();
+$textAlign = $block->text_align()->or('left');
+?>
 <div
-  class="headword <?= $block->size()->or('lead'); ?> <?= $block->class(); ?>"
-  <?php if ($block->id()) echo 'id="' . $block->id() . '"'; ?>
+  class="headword <?= $size; ?> <?= $class; ?>"
+  <?= Html::attr(['id' => $id], null, ' ') ?>
+  style="text-align: <?= $textAlign; ?>;"
 >
   <?= $block->text()->kirbytextinline(); ?>
 </div>
