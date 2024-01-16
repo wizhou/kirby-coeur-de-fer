@@ -41,6 +41,8 @@ fields:
 
   text_align: fields/text-align
 
+  text_transform: fields/text-transform
+
   id:
     type: text
     width: 1/2
