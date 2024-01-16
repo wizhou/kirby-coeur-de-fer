@@ -1,19 +1,19 @@
-  label:
-    fr: Marges
-    en: Margins
-  type: select
-  empty: false
-  default: "default"
-  options:
-    default:
-      fr: Par défaut
-      en: Default
-    unmarged:
-      fr: Sans marge
-      en: Unmarged
-    unmarged-top:
-      fr: Sans marge en haut
-      en: Unmarged top
-    unmarged-bottom:
-      fr: Sans marge en bas
-      en: Unmarged bottom
+label:
+  fr: Marges
+  en: Margins
+type: select
+empty: false
+default: "default"
+options:
+  default:
+    fr: Par défaut
+    en: Default
+  unmarged:
+    fr: Sans marge
+    en: Unmarged
+  unmarged-top:
+    fr: Sans marge en haut
+    en: Unmarged top
+  unmarged-bottom:
+    fr: Sans marge en bas
+    en: Unmarged bottom
