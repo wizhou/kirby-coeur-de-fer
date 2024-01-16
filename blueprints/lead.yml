@@ -39,6 +39,8 @@ fields:
         fr: Pearl (Très petit)
         en: Pearl (Very small)
 
+  text_align: fields/text-align
+
   id:
     type: text
     width: 1/2
