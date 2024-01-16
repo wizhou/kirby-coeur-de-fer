@@ -11,6 +11,7 @@ Kirby::plugin('wizhou/kirby-coeur-de-fer', [
         'blocks/lead' => __DIR__ . '/blueprints/lead.yml',
         'blocks/heading' => __DIR__ . '/blueprints/heading.yml',
         'fields/margins' => __DIR__ . '/blueprints/fields/margins.yml',
-        'fields/text-align' => __DIR__ . '/blueprints/fields/text-align.yml'
+        'fields/text-align' => __DIR__ . '/blueprints/fields/text-align.yml',
+        'fields/text-transform' => __DIR__ . '/blueprints/fields/text-transform.yml'
     ]
 ]);
